@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(194, 194, 194);
+}
+
+
+form {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+input {
+    text-align: center;
+    width: 200px;
+}
+
+#no_stock {
+    color: red;
+}
